@@ -1,0 +1,83 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+.container{
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(135deg,purple,blue);
+  width: 400px;
+  height: 450px;
+  /* filter: drop-shadow(10px 10px 10px gray); */
+  box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
+}
+.tittle{
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.username{
+  margin-left: 50px;
+}
+.password{
+  margin-left: 50px;
+}
+input{
+  border-radius: 8px;
+  height: 33px;
+  width: 290px;
+  /* border: white; */
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  color: white;
+}
+button{
+  border-radius: 10px;
+  height: 35px;
+  width: 300px;
+  border: white;
+  background-color: rgb(69, 9, 96);
+  color: white;
+  cursor: pointer;
+}
+.button{
+  margin-top: 35px;
+  margin-left: 50px;
+}
+button:hover{
+  background-color: rgb(143, 34, 162);
+}
+.account{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+h3{
+  color: rgb(8, 2, 19);
+}
+a{
+  color: white;
+}
+a:hover{
+  color: purple;
+}
+#username{
+  margin-left: 15px;
+  
+}
+#password{
+  margin-left: 15px;
+}
