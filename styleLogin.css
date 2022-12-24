@@ -12,13 +12,13 @@ body {
   border-radius: 23px;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(135deg,purple,blue);
+  background-image: linear-gradient(150deg,#53f ,#05d5ff );
   width: 400px;
   height: 450px;
-  /* filter: drop-shadow(10px 10px 10px gray); */
   box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
   -webkit-box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
+  position: relative;
 }
 .tittle{
   justify-content: center;
@@ -36,7 +36,6 @@ input{
   border-radius: 8px;
   height: 33px;
   width: 290px;
-  /* border: white; */
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -49,7 +48,7 @@ button{
   border-radius: 10px;
   height: 35px;
   width: 300px;
-  border: white;
+  border: none;
   background-color: rgb(69, 9, 96);
   color: white;
   cursor: pointer;
@@ -68,16 +67,27 @@ button:hover{
 h3{
   color: rgb(8, 2, 19);
 }
-a{
+#username,#password{
+  margin-left: 15px;
   color: white;
 }
-a:hover{
-  color: purple;
+.account{
+  color: white;
 }
-#username{
-  margin-left: 15px;
-  
+.account p a{
+  color:  rgb(213, 107, 213);
+  text-decoration: none;
 }
-#password{
-  margin-left: 15px;
+.account p a:hover{
+  color:  rgb(141, 54, 175);
+  border-bottom: 1px solid;
+}
+.block{
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(150deg, #a6ffcb ,#05d5ff ,#53f 94%);
+  transform: skewY(20deg);
+  transform-origin: 1;
+  position: absolute;
+  top: 0;
 }
