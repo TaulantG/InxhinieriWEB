@@ -1,6 +1,6 @@
 const myArray=[
-    "img/img1.jpg",
-    "img/img2.gif"
+    "img2.gif",
+    "img1.gif",
 ]
 var img = document.getElementById('slideshow');
 let i = 0;
@@ -28,16 +28,3 @@ function previous(){
 }
 
 document.body.addEventListener('load',previous());
-
-var autoplayInterval = setInterval(function() {
-
-    document.getElementById("button").click();
-    
-   
-  }, 10000); 
-
-function stopAutoplay() {
-
-  clearInterval(autoplayInterval);
-
-}

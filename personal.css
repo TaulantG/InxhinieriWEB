@@ -1,0 +1,51 @@
+.divpersonal {
+    margin-left: 420px;
+}
+
+#divp {
+    margin-bottom: 100px;
+}
+
+#h2i {
+    margin-top: 120px;
+    margin-left: 218px;
+}
+
+#h2t {
+    margin-top: 120px;
+    margin-left: 105px;
+}
+
+#pt {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+#h2a {
+    margin-top: 10px;
+    margin-left: 235px;
+}
+
+.ppersonal {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.butonig2 {
+    width: 200px;
+    height: 50px;
+    padding: 9px 25px;
+    background-color: rgb(13, 133, 163);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center ;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.butonig2:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+}

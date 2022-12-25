@@ -34,9 +34,11 @@ body {
   color: white;
 }
 .Username{
+  color: white;
   margin-left: 50px;
 }
 .Password{
+  color: white;
   margin-left: 50px;
 }
 .input-control {
@@ -76,14 +78,16 @@ body {
   height: 13px;
 }
 .input-control label{
+  color: white;
   margin-top: 15px;
+  
 }
 button{
   border-radius: 10px;
   height: 35px;
   width: 300px;
   border: none;
-  background-color: rgb(69, 9, 96);
+  background-color: black;
   color: white;
   cursor: pointer;
 }
@@ -92,7 +96,7 @@ button{
   margin-left: 50px;
 }
 button:hover{
-  background-color: rgb(143, 34, 162);
+  background-color: rgba(0, 136, 169, 0.5);
 }
 .account{
   margin-left: 50px;
@@ -109,11 +113,11 @@ h3{
   color: white;
 }
 .account p a{
-  color:  rgb(213, 107, 213);
+  color:  black;
   text-decoration: none;
 }
 .account p a:hover{
-  color:  rgb(141, 54, 175);
+  color:  rgba(0, 136, 169, 0.5);
   border-bottom: 1px solid;
 }
 .block{

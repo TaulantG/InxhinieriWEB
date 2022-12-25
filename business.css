@@ -1,0 +1,37 @@
+.divbusiness {
+    margin-left: 420px;
+}
+
+.h2business {
+    margin-top: 120px;
+    margin-left: 235px;
+}
+
+.pbusiness {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#h2t {
+    margin-top: 120px;
+    margin-left: 210px;
+}
+
+.butonig2 {
+    width: 200px;
+    height: 50px;
+    padding: 9px 25px;
+    background-color: rgb(13, 133, 163);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center ;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.butonig2:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+}

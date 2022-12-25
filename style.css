@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2, h3, h4, h5, p {
+    font-family: Mark, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li, button{
+    font-family: Mark, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+li, a {
+    font-family: Mark, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;    
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 5%;
+    position: fixed;
+    z-index: 100000; 
+    transition: 0.6s;
+    width: 100%;
+    background-color: white;
+}
+header.sticky{
+    padding: 5px 80px;
+    background: #fff;
+}
+header .logo,
+header.sticky ul li a{
+    color: #000;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+}
+.logo{
+    cursor: pointer;
+}
+.links1 {
+    list-style: none;
+}
+.links1 li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.links1 li a{
+    transition: all 0.1s ease 0s;
+    color: black;
+    font-weight: bold;
+}
+.links1 li a:hover{
+    color:  rgba(0, 136, 169, 0.5);
+}
+header button{
+    width: 110px;
+    padding: 9px 25px;
+    background-color: rgb(13, 133, 163);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center ;
+    align-items: center;
+}
+header button:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.slideshow2{
+    margin: 0;
+    height: 500px;
+}
+
+.containerSlide2{
+    height: 700px;
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.slideshow{
+    margin: 0;
+    height: 500px;
+}
+img{
+    height:500px;
+    width: 100%;
+}
+.title h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 15px;
+    font-size: 28px;
+    
+}
+#tittle{
+    align-items: center;
+    justify-content: center;
+}
+.containerSlide{
+    height: 700px;
+    
+}
+.slideButton{
+    margin-left: 680px;
+    display: flex;
+}
+.slideButton button{
+    transition: all 0.3s ease 0s;
+    
+}
+.buttonP{
+    margin-left: 10px;
+    
+}
+.buttonN{
+    margin-left: 10px;
+
+}
+material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48,
+}
+.material-symbols-outlined{
+    color: rgba(0, 136, 169, 1);
+}
+.material-symbols-outlined:hover{
+    color: rgba(0, 136, 169, 0.5);
+}
+#button{
+    height: 37px;
+    width: 70px;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    margin-top: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    height: 250px;    
+    border: 2px solid red;
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    height: 250px;    
+    border: 2px solid red;
+}
+.content3{
+    display: flex;
+    flex-direction: row;
+    height: 250px;    
+    border: 2px solid red;
+}
+.img1,
+.paragraph1,
+.img2,
+.paragraph2,
+.img3,
+.paragraph3{
+    width: 50%;
+    border: 1px solid black;
+
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.h {
+    text-align: center;
+
+}
+
+.infodiv {
+    width: 1515px;
+    height: 409px;
+    display: flex;
+    flex: row;
+}
+
+.divphoto {
+    width: 650px;
+    height: 409px;
+    margin-left: 30px;
+}
+
+.divtext {
+    width: 865px;
+    height: 409px;
+}
+
+#h2account {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+#paccount {
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+.divtext2 {
+    width: 865px;
+    height: 409px;
+}
+
+.divphoto2 {
+    width: 650px;
+    height: 409px;
+    margin-right: 30px;
+}
+
+#h2bank {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+#pbank {
+    margin-top: 35px;
+    margin-left: 80px;
+}
+
+#h2payment {
+    
+    margin-top: 100px;
+    margin-left: 200px; 
+
+}
+
+#ppayment {
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+.wfotodiv {
+    display: flex;
+    flex-direction: row;
+}
+
+#wfoto1 {
+    margin-left: 110px;
+    margin-top: 14px;
+}
+
+#wfoto2 {
+    margin-left: 350px;
+}
+
+#wfoto3 {
+    margin-left: 315px;    
+}
+
+#wfoto4 {
+    margin-left: 360px;
+    margin-bottom: 14px;    
+}
+
+#whdiv {
+    width: 1515px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#wh31 {
+    margin-left: 125px;    
+}
+
+#wh32 {
+    margin-left: 350px;
+}
+
+#wh33 {
+    margin-left: 320px;
+}
+
+#wh34 {
+    margin-left: 370px;
+    margin-bottom: 13px;
+}
+
+#wpdiv {
+    width: 1515px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#wp1 {
+    margin-left: 60px;    
+}
+
+#wp2 {
+    margin-left: 120px;
+}
+
+#wp3 {
+    margin-left: 120px;
+}
+
+#wp4 {
+    margin-left: 120px;
+}
+
+#hadresa {
+    margin-left: 60px;
+}
+#padresa {
+    margin-left: 35px;
+}
+
+#fotologo {
+    margin-left: 35px;
+}
+
+footer img {
+    margin-left: 60px;
+}
+
+#hcompany {
+    margin-left: 198px;
+    margin-top: 45px;
+}
+
+#ulcompany {
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+#ulcompany li {
+    margin-top: 20px;
+}
+
+#ulcompany a {
+    list-style: none;
+    color: black;
+}
+
+#ulcompany a:hover {
+    color: rgba(0, 136, 169, 0.5);
+}
+
+#hservices {
+    margin-left: 196px;
+    margin-top: 46px;
+}
+
+#ulservices {
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+#ulservices li {
+    margin-top: 20px;
+}
+
+#ulservices a {
+    list-style: none;
+    color: black;
+}
+
+#ulservices a:hover {
+    color: rgba(0, 136, 169, 0.5);
+}
+
+#butonig{
+    width: 200px;
+    height: 50px;
+    padding: 9px 25px;
+    background-color: rgb(13, 133, 163);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 660px;
+}
+#butonig:hover{
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+.Enter_text {
+    width: 400px;
+    float: left;
+    font-size: 14px;
+    color: #828080;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: #e3e3e3 2px solid;
+    font-style: ;
+}
+.newsletter{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+#butonis {
+    width: 200px;
+    height: 50px;
+    padding: 9px 25px;
+    background-color: rgb(13, 133, 163);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#butonis:hover {
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+about_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    
+}
+.about_taital_main {
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 70px;
+    
+}
+.padding_right_0 {
+    padding-right: 0px;
+}
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #1f1f1f;
+    margin: 0px;
+    padding-top: 40px;
+}
+.about_img {
+    width: 100%;
+    float: left;
+}
+.contact_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+.contact {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #363636;
+    text-align: center;
+    font-weight: bold;
+}
+.email_text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+}
+.email-bt {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #393838;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 0px;
+    border: 1px solid #2b2278 ;
+}
+.massage-bt {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #393838;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0px;
+    border: 1px solid #2b2278 ;
+}
+.send-btn {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.send-btn a {
+    width: 100%;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 30px;
+    background-color: rgb(13, 133, 163);
+    padding: 7px;
+}
+.send-btn a:hover {
+    color: #ffffff;
+    background-color: rgba(0, 136, 169, 0.5);
+}

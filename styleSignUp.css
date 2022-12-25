@@ -54,7 +54,7 @@ button{
     height: 33px;
     width: 300px;
     cursor: pointer;
-    background-color: rgb(69, 9, 96);
+    background-color: black;
     color: white;
     border: none;
 }
@@ -62,7 +62,7 @@ button{
     margin-left: 210px;
 }
 button:hover{
-    background-color: rgb(143, 34, 162);
+    background-color: rgba(0, 136, 169, 0.5);
 }
 
 .row label{
@@ -128,11 +128,11 @@ button:hover{
     color: white;
 }
 .account p a{
-    color: rgb(213, 107, 213);
+    color: black;
     text-decoration: none;
 }
 .account p a:hover{
-    color:  rgb(141, 54, 175);
+    color:  black;
     border-bottom: 1px solid;
 }
 /* .dropdown{
