@@ -4,6 +4,8 @@
     <title>Personal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="personal.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img\logo_transparent.png">
 </head>
 <body>
     <header>
@@ -34,32 +36,37 @@
         <br>
         <br>
         <br> 
-        <div data-aos="fade-up-right" class="divpersonal">
-            <div class="divphoto"><img src="personalfoto1.gif"></div>
-            <div class="divtext">
+        <div class="divpersonal">
+            <div  data-aos="flip-left"class="divphoto"><img src="personalfoto1.gif"></div>
+            <div data-aos="flip-right" class="divtext">
                 <h2 id="h2i">Pay your invoices online</h2>
                 <p class="ppersonal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur accusantium,<br> hic deserunt labore beatae amet minus, deleniti, dolorem sapiente voluptatem ut.<br> Ab odio deserunt in hic amet ipsam facilis esse.</p>
                 <a href="signup.html"><button class="butonig2">Get Started</button></a>
             </div>
         </div>
 
-        <div data-aos="fade-up-left" class="divpersonal">
-            <div class="divphoto"><img src="personalfoto2.jpeg"></div>
-            <div class="divtext">
+        <div class="divpersonal">
+            <div data-aos="flip-right" class="divphoto"><img src="personalfoto2.jpeg"></div>
+            <div data-aos="flip-left" class="divtext">
                 <h2 id="h2t">Transfer to your friends and family worldwide</h2>
                 <p id="pt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur accusantium,<br> hic deserunt labore beatae amet minus, deleniti, dolorem sapiente voluptatem ut.<br> Ab odio deserunt in hic amet ipsam facilis esse.</p>
                 <a href="signup.html"><button class="butonig2">Get Started</button></a>
             </div>
         </div>
 
-        <div data-aos="fade-up-right" class="divpersonal" id="divp">
-            <div class="divphoto"><img src="personalfoto3.gif"></div>
-            <div class="divtext">
+        <div class="divpersonal" id="divp">
+            <div data-aos="flip-left" class="divphoto"><img src="personalfoto3.gif"></div>
+            <div data-aos="flip-right" class="divtext">
                 <h2 id="h2a">Pay with any device</h2>
                 <p class="ppersonal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur accusantium,<br> hic deserunt labore beatae amet minus, deleniti, dolorem sapiente voluptatem ut.<br> Ab odio deserunt in hic amet ipsam facilis esse.</p>
                 <a href="signup.html"><button class="butonig2">Get Started</button></a>
             </div>
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 <footer class="footer1" style="background: #efeff1;">
