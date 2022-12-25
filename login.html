@@ -3,31 +3,34 @@
     <head>
         <link rel="stylesheet" href="styleLogin.css">
     </head>
-    <body>
+    <body >
         <div class="block"></div> 
-        <form>
+        <form id="form">
             <div class="container">
                 <div class="tittle">
                     <h2>Login</h2>
                 </div>
-                <div class="username">
-                    <h3 id="username">Username</h3>
-                    <input type="text" placeholder="Username">
-                </div>
-                <div class="password">
-                    <h3 id="password">Password</h3>
-                    <input type="password" placeholder="Password">
+                <div class="data">
+                    <div class="input-control">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="text">
+                        <div class="msg"><div class="error"></div></div>
+                    </div>
+                    <div class="input-control">
+                        <label for="password">Password</label>
+                        <input id="password" name="password" type="password">
+                        <div class="msg"><div class="error"></div></div>
+                    </div>
                 </div>
                 <div class="button">
-                    <button><strong>Login</strong></button>
+                    <button type="submit"><strong>Login</strong></button>
                 </div>
                 <div class="account">
                     <p>Not already a user. <a href="signup.html">Create new account!</a></p>
                 </div>
-                <div>
-
-                </div>
+                <div class="links"><a href="index.html">© EasyPay</a></div>
             </div>
         </form>
+        <script src="JS-login-validation.js"></script>
     </body>
 </html>

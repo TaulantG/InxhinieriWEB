@@ -20,29 +20,63 @@ body {
   -moz-box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
   position: relative;
 }
+.data{
+  margin: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .tittle{
   justify-content: center;
   text-align: center;
   margin-top: 10px;
   color: white;
 }
-.username{
+.Username{
   margin-left: 50px;
 }
-.password{
+.Password{
   margin-left: 50px;
 }
-input{
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
   border-radius: 8px;
   height: 33px;
-  width: 290px;
+  width: 300px;
   border-top: 0;
   border-left: 0;
   border-right: 0;
   border-bottom: 1px solid white;
   outline: none;
   background: transparent;
-  color: white;
+  color: #fff;
+  
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+.input-control label{
+  margin-top: 15px;
 }
 button{
   border-radius: 10px;
@@ -54,7 +88,7 @@ button{
   cursor: pointer;
 }
 .button{
-  margin-top: 35px;
+  margin-top: 10px;
   margin-left: 50px;
 }
 button:hover{
@@ -67,7 +101,7 @@ button:hover{
 h3{
   color: rgb(8, 2, 19);
 }
-#username,#password{
+#husername,#hpassword{
   margin-left: 15px;
   color: white;
 }
@@ -90,4 +124,11 @@ h3{
   transform-origin: 1;
   position: absolute;
   top: 0;
+}
+.links{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.msg{
+  margin-top: 5px;
 }

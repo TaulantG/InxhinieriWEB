@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    flex-direction: column;
+    background-color: lightblue;
+}
+.container{
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 850px;
+    background-color: lightblue;
+    /* justify-content: center; */
+    background-image: linear-gradient(150deg,#53f ,#05d5ff );
+    box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 20px 61px -9px rgba(0,0,0,0.75);
+    position: relative;
+}
+.titulli h3{
+    margin-left: 280px;
+    margin-top: 15px;
+    font-size: 30px;
+    color: white;
+}
+.titulli p{
+    margin-left: 230px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.data{
+    margin: 20px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.data input{
+    display: flex;
+    flex-direction: row;
+    margin: 8%;
+}
+button{
+    border-radius: 10px;
+    height: 33px;
+    width: 300px;
+    cursor: pointer;
+    background-color: rgb(69, 9, 96);
+    color: white;
+    border: none;
+}
+.button{
+    margin-left: 210px;
+}
+button:hover{
+    background-color: rgb(143, 34, 162);
+}
+
+.row label{
+    margin-left: 29px;
+    color: #fff;
+}
+.row2{
+    margin-right: 30px;
+}
+.row2 label{
+    margin-left: 29px;
+    color: #fff;
+}
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border-radius: 8px;
+    height: 33px;
+    width: 300px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+.block{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(150deg, #53f,#05d5ff,#a6ffcb 94%);
+    transform: skewY(-12deg);
+    transform-origin: 0;
+    position: absolute;
+    top: 0;
+}
+.account{
+    
+    margin-left: 270px;
+    margin-top: 15px;
+    color: white;
+}
+.account p a{
+    color: rgb(213, 107, 213);
+    text-decoration: none;
+}
+.account p a:hover{
+    color:  rgb(141, 54, 175);
+    border-bottom: 1px solid;
+}
+/* .dropdown{
+    width: 300px;
+    position: relative;
+    margin-left: 25px;
+}
+.dropdown *{
+    box-sizing: border-box;
+}
+.select{
+    background: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px white solid;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.select-clicked{
+    border: 2px #26489a;
+    box-shadow: 0 0 0.8em #26489a;
+}
+.select:hover{
+    background: #323741;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+.arrow-rotate{
+    transform: rotate(180deg);
+}
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px #363143;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+.menu li{
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.menu li:hover{
+    background: #2a2d35;
+}
+.activate{
+    background: #23242a;
+}
+.menu-open{
+    display: block;
+    opacity: 1;
+} */
+.links{
+    margin-left: 320px;
+    margin-top: 15px;
+}
+.msg{
+    margin-left: 25px;
+    margin-top: 1px;
+}
